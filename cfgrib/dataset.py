@@ -39,6 +39,7 @@ LOG = logging.getLogger(__name__)
 GLOBAL_ATTRIBUTES_KEYS = ['edition', 'centre', 'centreDescription', 'subCentre']
 
 DATA_ATTRIBUTES_KEYS = [
+    'parameterNumber',
     'paramId',
     'shortName',
     'units',
